@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		D1B11D722230FB8C005C3147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11D712230FB8C005C3147 /* AppDelegate.swift */; };
-		D1B11D742230FB8C005C3147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11D732230FB8C005C3147 /* ViewController.swift */; };
 		D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D752230FB8C005C3147 /* Main.storyboard */; };
 		D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D782230FB8F005C3147 /* Assets.xcassets */; };
 		D1B11D7C2230FB8F005C3147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D7A2230FB8F005C3147 /* LaunchScreen.storyboard */; };
+		D1B11DD4223111C0005C3147 /* NavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DBC223111C0005C3147 /* NavigationHeaderView.swift */; };
+		D1B11DD5223111C0005C3147 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DBF223111C0005C3147 /* Global.swift */; };
+		D1B11DD6223111C0005C3147 /* AnimatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC0223111C0005C3147 /* AnimatorManager.swift */; };
+		D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC1223111C0005C3147 /* UserDataManager.swift */; };
+		D1B11DD8223111C0005C3147 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC2223111C0005C3147 /* Extensions.swift */; };
+		D1B11DDA223111C0005C3147 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC4223111C0005C3147 /* Const.swift */; };
+		D1B11DDB223111C0005C3147 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC6223111C0005C3147 /* BaseTabBarController.swift */; };
+		D1B11DDC223111C0005C3147 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC7223111C0005C3147 /* ListModel.swift */; };
+		D1B11DDD223111C0005C3147 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC8223111C0005C3147 /* BaseViewController.swift */; };
+		D1B11DDE223111C0005C3147 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DC9223111C0005C3147 /* BaseTableViewCell.swift */; };
+		D1B11DDF223111C0005C3147 /* BaseNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DCA223111C0005C3147 /* BaseNavigationControllerViewController.swift */; };
+		D1B11DE0223111C0005C3147 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DCB223111C0005C3147 /* BaseTableView.swift */; };
+		D1B11DE1223111C0005C3147 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DCC223111C0005C3147 /* BaseView.swift */; };
+		D1B11DE2223111C0005C3147 /* NavigationHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DD2223111C0005C3147 /* NavigationHeaderView.xib */; };
+		D1B11DE82231125E005C3147 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DE72231125E005C3147 /* CheckBoxButton.swift */; };
+		D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */; };
+		D1B11DEE22311314005C3147 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DED22311314005C3147 /* DemoViewController.swift */; };
+		D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DEF2231132D005C3147 /* DemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1B11D6E2230FB8C005C3147 /* Parts1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parts1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B11D712230FB8C005C3147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1B11D732230FB8C005C3147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1B11D762230FB8C005C3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B11D782230FB8F005C3147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B11D7B2230FB8F005C3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1B11D7D2230FB8F005C3147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B11DBC223111C0005C3147 /* NavigationHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHeaderView.swift; sourceTree = "<group>"; };
+		D1B11DBF223111C0005C3147 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		D1B11DC0223111C0005C3147 /* AnimatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorManager.swift; sourceTree = "<group>"; };
+		D1B11DC1223111C0005C3147 /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		D1B11DC2223111C0005C3147 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D1B11DC4223111C0005C3147 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		D1B11DC6223111C0005C3147 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		D1B11DC7223111C0005C3147 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		D1B11DC8223111C0005C3147 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D1B11DC9223111C0005C3147 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		D1B11DCA223111C0005C3147 /* BaseNavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		D1B11DCB223111C0005C3147 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		D1B11DCC223111C0005C3147 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D1B11DD2223111C0005C3147 /* NavigationHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationHeaderView.xib; sourceTree = "<group>"; };
+		D1B11DE72231125E005C3147 /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxButton.xib; sourceTree = "<group>"; };
+		D1B11DED22311314005C3147 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		D1B11DEF2231132D005C3147 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +88,135 @@
 		D1B11D702230FB8C005C3147 /* Parts1 */ = {
 			isa = PBXGroup;
 			children = (
+				D1B11DB8223111C0005C3147 /* classes */,
 				D1B11D712230FB8C005C3147 /* AppDelegate.swift */,
-				D1B11D732230FB8C005C3147 /* ViewController.swift */,
 				D1B11D752230FB8C005C3147 /* Main.storyboard */,
 				D1B11D782230FB8F005C3147 /* Assets.xcassets */,
 				D1B11D7A2230FB8F005C3147 /* LaunchScreen.storyboard */,
 				D1B11D7D2230FB8F005C3147 /* Info.plist */,
 			);
 			path = Parts1;
+			sourceTree = "<group>";
+		};
+		D1B11DB8223111C0005C3147 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DB9223111C0005C3147 /* Controller */,
+				D1B11DBE223111C0005C3147 /* Common */,
+				D1B11DCD223111C0005C3147 /* Model */,
+				D1B11DCE223111C0005C3147 /* View */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D1B11DB9223111C0005C3147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DBA223111C0005C3147 /* Sub */,
+				D1B11DBD223111C0005C3147 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1B11DBA223111C0005C3147 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DE72231125E005C3147 /* CheckBoxButton.swift */,
+				D1B11DBB223111C0005C3147 /* Common */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		D1B11DBB223111C0005C3147 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DBC223111C0005C3147 /* NavigationHeaderView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D1B11DBD223111C0005C3147 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DED22311314005C3147 /* DemoViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D1B11DBE223111C0005C3147 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DBF223111C0005C3147 /* Global.swift */,
+				D1B11DC0223111C0005C3147 /* AnimatorManager.swift */,
+				D1B11DC1223111C0005C3147 /* UserDataManager.swift */,
+				D1B11DC2223111C0005C3147 /* Extensions.swift */,
+				D1B11DC4223111C0005C3147 /* Const.swift */,
+				D1B11DC5223111C0005C3147 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D1B11DC5223111C0005C3147 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DC6223111C0005C3147 /* BaseTabBarController.swift */,
+				D1B11DC7223111C0005C3147 /* ListModel.swift */,
+				D1B11DC8223111C0005C3147 /* BaseViewController.swift */,
+				D1B11DC9223111C0005C3147 /* BaseTableViewCell.swift */,
+				D1B11DCA223111C0005C3147 /* BaseNavigationControllerViewController.swift */,
+				D1B11DCB223111C0005C3147 /* BaseTableView.swift */,
+				D1B11DCC223111C0005C3147 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D1B11DCD223111C0005C3147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1B11DCE223111C0005C3147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DCF223111C0005C3147 /* wireframe */,
+				D1B11DD0223111C0005C3147 /* Sub */,
+				D1B11DD3223111C0005C3147 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1B11DCF223111C0005C3147 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		D1B11DD0223111C0005C3147 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */,
+				D1B11DD1223111C0005C3147 /* Common */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		D1B11DD1223111C0005C3147 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DD2223111C0005C3147 /* NavigationHeaderView.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D1B11DD3223111C0005C3147 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DEF2231132D005C3147 /* DemoViewController.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1B11D7C2230FB8F005C3147 /* LaunchScreen.storyboard in Resources */,
+				D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */,
+				D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */,
+				D1B11DE2223111C0005C3147 /* NavigationHeaderView.xib in Resources */,
 				D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */,
 				D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +293,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B11D742230FB8C005C3147 /* ViewController.swift in Sources */,
+				D1B11DEE22311314005C3147 /* DemoViewController.swift in Sources */,
 				D1B11D722230FB8C005C3147 /* AppDelegate.swift in Sources */,
+				D1B11DE82231125E005C3147 /* CheckBoxButton.swift in Sources */,
+				D1B11DDF223111C0005C3147 /* BaseNavigationControllerViewController.swift in Sources */,
+				D1B11DDD223111C0005C3147 /* BaseViewController.swift in Sources */,
+				D1B11DDB223111C0005C3147 /* BaseTabBarController.swift in Sources */,
+				D1B11DDE223111C0005C3147 /* BaseTableViewCell.swift in Sources */,
+				D1B11DD8223111C0005C3147 /* Extensions.swift in Sources */,
+				D1B11DD4223111C0005C3147 /* NavigationHeaderView.swift in Sources */,
+				D1B11DE0223111C0005C3147 /* BaseTableView.swift in Sources */,
+				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
+				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
+				D1B11DD6223111C0005C3147 /* AnimatorManager.swift in Sources */,
+				D1B11DE1223111C0005C3147 /* BaseView.swift in Sources */,
+				D1B11DD5223111C0005C3147 /* Global.swift in Sources */,
+				D1B11DDC223111C0005C3147 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
