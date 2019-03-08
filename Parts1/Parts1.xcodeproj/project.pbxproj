@@ -31,6 +31,9 @@
 		D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DEF2231132D005C3147 /* DemoViewController.xib */; };
 		D1B11E5922325997005C3147 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11E5822325997005C3147 /* FacebookButton.swift */; };
 		D1B11E5B223259AD005C3147 /* FacebookButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E5A223259AD005C3147 /* FacebookButton.xib */; };
+		D1B11E5D22325F23005C3147 /* facebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E5C22325F23005C3147 /* facebookButton.png */; };
+		D1B11E6022326930005C3147 /* FacebookProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */; };
+		D1B11E6222326956005C3147 /* FacebookProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		D1B11DEF2231132D005C3147 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		D1B11E5822325997005C3147 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		D1B11E5A223259AD005C3147 /* FacebookButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookButton.xib; sourceTree = "<group>"; };
+		D1B11E5C22325F23005C3147 /* facebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookButton.png; sourceTree = "<group>"; };
+		D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProfileViewController.swift; sourceTree = "<group>"; };
+		D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		D1B11DB8223111C0005C3147 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1B11E5E22326032005C3147 /* images */,
 				D1B11DB9223111C0005C3147 /* Controller */,
 				D1B11DBE223111C0005C3147 /* Common */,
 				D1B11DCE223111C0005C3147 /* View */,
@@ -142,6 +149,7 @@
 		D1B11DBD223111C0005C3147 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */,
 				D1B11DED22311314005C3147 /* DemoViewController.swift */,
 			);
 			path = Main;
@@ -212,9 +220,18 @@
 		D1B11DD3223111C0005C3147 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */,
 				D1B11DEF2231132D005C3147 /* DemoViewController.xib */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		D1B11E5E22326032005C3147 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11E5C22325F23005C3147 /* facebookButton.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B11E5D22325F23005C3147 /* facebookButton.png in Resources */,
+				D1B11E6222326956005C3147 /* FacebookProfileViewController.xib in Resources */,
 				D1B11E5B223259AD005C3147 /* FacebookButton.xib in Resources */,
 				D1B11D7C2230FB8F005C3147 /* LaunchScreen.storyboard in Resources */,
 				D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */,
@@ -302,6 +321,7 @@
 				D1B11DD8223111C0005C3147 /* Extensions.swift in Sources */,
 				D1B11DD4223111C0005C3147 /* NavigationHeaderView.swift in Sources */,
 				D1B11DE0223111C0005C3147 /* BaseTableView.swift in Sources */,
+				D1B11E6022326930005C3147 /* FacebookProfileViewController.swift in Sources */,
 				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
 				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
 				D1B11E5922325997005C3147 /* FacebookButton.swift in Sources */,
