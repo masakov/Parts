@@ -20,19 +20,76 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZJf-Dq-T1l" customClass="CheckBoxButton" customModule="Parts1" customModuleProvider="target">
-                    <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3op-YH-dx7" customClass="CheckBoxButton" customModule="Parts1" customModuleProvider="target">
+                    <rect key="frame" x="16" y="36" width="100" height="100"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="ZJf-Dq-T1l" secondAttribute="height" multiplier="1:1" id="1O2-iA-E8M"/>
-                        <constraint firstAttribute="width" constant="240" id="sgK-ZD-NIz"/>
+                        <constraint firstAttribute="width" constant="100" id="Okk-b6-XOl"/>
+                        <constraint firstAttribute="width" secondItem="3op-YH-dx7" secondAttribute="height" multiplier="1:1" id="wIv-Zd-Ff4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fJ-u2-mSo" customClass="FacebookButton" customModule="Parts1" customModuleProvider="target">
+                    <rect key="frame" x="137.5" y="36" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="ZIz-3i-1fC"/>
+                        <constraint firstAttribute="width" secondItem="1fJ-u2-mSo" secondAttribute="height" multiplier="1:1" id="lds-06-pXK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JwY-dd-nm9">
+                    <rect key="frame" x="259" y="36" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="JwY-dd-nm9" secondAttribute="height" multiplier="1:1" id="WPc-gC-j59"/>
+                        <constraint firstAttribute="width" constant="100" id="YeC-o0-zh9"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSO-Os-fWx">
+                    <rect key="frame" x="16" y="152" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="THB-7Q-cHd"/>
+                        <constraint firstAttribute="width" secondItem="uSO-Os-fWx" secondAttribute="height" multiplier="1:1" id="scu-Yz-INY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIg-6i-X2u">
+                    <rect key="frame" x="259" y="152" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rIg-6i-X2u" secondAttribute="height" multiplier="1:1" id="BS5-qX-1sP"/>
+                        <constraint firstAttribute="width" constant="100" id="IS9-1O-fek"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-3b-UCc">
+                    <rect key="frame" x="137.5" y="152" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="4Ib-DE-ubC"/>
+                        <constraint firstAttribute="width" secondItem="Bb8-3b-UCc" secondAttribute="height" multiplier="1:1" id="Vvo-EN-8yM"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="ZJf-Dq-T1l" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Ku-lz-UXA"/>
-                <constraint firstItem="ZJf-Dq-T1l" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SGb-lD-NhZ"/>
+                <constraint firstItem="1fJ-u2-mSo" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3cD-eQ-ZNK"/>
+                <constraint firstItem="Bb8-3b-UCc" firstAttribute="width" secondItem="Bb8-3b-UCc" secondAttribute="height" multiplier="1:1" id="6Yu-SA-FqL"/>
+                <constraint firstItem="1fJ-u2-mSo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="8V2-GE-HK8"/>
+                <constraint firstItem="rIg-6i-X2u" firstAttribute="width" secondItem="rIg-6i-X2u" secondAttribute="height" multiplier="1:1" id="EaT-dI-ltS"/>
+                <constraint firstItem="3op-YH-dx7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="G6y-de-Yea"/>
+                <constraint firstItem="rIg-6i-X2u" firstAttribute="top" secondItem="JwY-dd-nm9" secondAttribute="bottom" constant="16" id="GF6-qX-5dI"/>
+                <constraint firstItem="3op-YH-dx7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Jdn-4o-DOD"/>
+                <constraint firstItem="JwY-dd-nm9" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="LLs-nM-ByQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rIg-6i-X2u" secondAttribute="trailing" constant="16" id="MIC-Ip-OZf"/>
+                <constraint firstItem="JwY-dd-nm9" firstAttribute="width" secondItem="JwY-dd-nm9" secondAttribute="height" multiplier="1:1" id="OgZ-Pi-ACK"/>
+                <constraint firstItem="uSO-Os-fWx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="WBG-Pb-72E"/>
+                <constraint firstItem="uSO-Os-fWx" firstAttribute="top" secondItem="3op-YH-dx7" secondAttribute="bottom" constant="16" id="Yw3-pE-qkq"/>
+                <constraint firstItem="Bb8-3b-UCc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fHk-kQ-Uqn"/>
+                <constraint firstItem="JwY-dd-nm9" firstAttribute="width" secondItem="JwY-dd-nm9" secondAttribute="height" multiplier="1:1" id="jHo-lQ-xhf"/>
+                <constraint firstItem="uSO-Os-fWx" firstAttribute="width" secondItem="uSO-Os-fWx" secondAttribute="height" multiplier="1:1" id="qsK-73-jr3"/>
+                <constraint firstItem="Bb8-3b-UCc" firstAttribute="top" secondItem="1fJ-u2-mSo" secondAttribute="bottom" constant="16" id="tEQ-hQ-Pdo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="JwY-dd-nm9" secondAttribute="trailing" constant="16" id="thz-O2-x6d"/>
+                <constraint firstItem="Bb8-3b-UCc" firstAttribute="width" secondItem="Bb8-3b-UCc" secondAttribute="height" multiplier="1:1" id="uhX-AE-1uf"/>
+                <constraint firstItem="1fJ-u2-mSo" firstAttribute="width" secondItem="1fJ-u2-mSo" secondAttribute="height" multiplier="1:1" id="ywX-z7-QdR"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>
