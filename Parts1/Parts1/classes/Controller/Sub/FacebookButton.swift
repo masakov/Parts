@@ -9,22 +9,27 @@
 import UIKit
 
 protocol FacebookButtonDelegate: NSObjectProtocol{
-   func facebookButton(_ sender: UIButton)
+    func touchedFacebookButton(_ sender: UIButton)
 }
 
 extension FacebookButtonDelegate {
-    
+    func facebookButton(_ sender: UIButton) {
+    }
 }
 // MARK: - Property
 class FacebookButton: BaseView {
     weak var delegate: FacebookButtonDelegate? = nil
-    @IBAction func facebookButton(_ sender: UIButton) {
-        delegate?.facebookButton(sender)
+    @IBAction func touchedFacebookButton(_ sender: UIButton) {
+        delegate?.touchedFacebookButton(sender)
     }
+    
 }
 
 // MARK: - Life cycle
 extension FacebookButton {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
     
 }
 

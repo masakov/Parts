@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoViewController" customModule="Parts1" customModuleProvider="target">
             <connections>
+                <outlet property="facebookButtonView" destination="3uU-Ue-dU0" id="YRQ-Bc-M5B"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Yca-0Z-cih"/>
             </connections>
         </placeholder>
