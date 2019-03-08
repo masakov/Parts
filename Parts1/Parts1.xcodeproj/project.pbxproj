@@ -29,8 +29,6 @@
 		D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */; };
 		D1B11DEE22311314005C3147 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11DED22311314005C3147 /* DemoViewController.swift */; };
 		D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11DEF2231132D005C3147 /* DemoViewController.xib */; };
-		D1B11E4922313FB4005C3147 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11E4822313FB4005C3147 /* FacebookButton.swift */; };
-		D1B11E4B22313FD5005C3147 /* FacebookButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E4A22313FD5005C3147 /* FacebookButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +56,6 @@
 		D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxButton.xib; sourceTree = "<group>"; };
 		D1B11DED22311314005C3147 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		D1B11DEF2231132D005C3147 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
-		D1B11E4822313FB4005C3147 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FacebookButton.swift; path = ../../../../../../Lesson/ModelLesson4/ModelLesson4/classes/Model/FacebookButton.swift; sourceTree = "<group>"; };
-		D1B11E4A22313FD5005C3147 /* FacebookButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FacebookButton.xib; path = ../../../../../../Lesson/ModelLesson4/ModelLesson4/classes/Model/FacebookButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +103,7 @@
 			children = (
 				D1B11DB9223111C0005C3147 /* Controller */,
 				D1B11DBE223111C0005C3147 /* Common */,
+				D1B11DCD223111C0005C3147 /* Model */,
 				D1B11DCE223111C0005C3147 /* View */,
 			);
 			path = classes;
@@ -124,9 +121,8 @@
 		D1B11DBA223111C0005C3147 /* Sub */ = {
 			isa = PBXGroup;
 			children = (
-				D1B11DBB223111C0005C3147 /* Common */,
 				D1B11DE72231125E005C3147 /* CheckBoxButton.swift */,
-				D1B11E4822313FB4005C3147 /* FacebookButton.swift */,
+				D1B11DBB223111C0005C3147 /* Common */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -174,6 +170,13 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		D1B11DCD223111C0005C3147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D1B11DCE223111C0005C3147 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,9 +197,8 @@
 		D1B11DD0223111C0005C3147 /* Sub */ = {
 			isa = PBXGroup;
 			children = (
-				D1B11DD1223111C0005C3147 /* Common */,
 				D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */,
-				D1B11E4A22313FD5005C3147 /* FacebookButton.xib */,
+				D1B11DD1223111C0005C3147 /* Common */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -275,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B11E4B22313FD5005C3147 /* FacebookButton.xib in Resources */,
 				D1B11D7C2230FB8F005C3147 /* LaunchScreen.storyboard in Resources */,
 				D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */,
 				D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */,
@@ -304,7 +305,6 @@
 				D1B11DE0223111C0005C3147 /* BaseTableView.swift in Sources */,
 				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
 				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
-				D1B11E4922313FB4005C3147 /* FacebookButton.swift in Sources */,
 				D1B11DD6223111C0005C3147 /* AnimatorManager.swift in Sources */,
 				D1B11DE1223111C0005C3147 /* BaseView.swift in Sources */,
 				D1B11DD5223111C0005C3147 /* Global.swift in Sources */,
