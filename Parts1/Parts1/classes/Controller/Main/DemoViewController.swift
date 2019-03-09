@@ -10,8 +10,10 @@ import UIKit
 
 // MARK: - Property
 class DemoViewController: BaseViewController{
-    let facebookProfileController = FacebookProfileViewController()
+    let facebookProfileViewController = FacebookProfileViewController()
+    let instagramProfileViewController = InstagramProfileViewController()
     @IBOutlet weak var facebookButtonView: FacebookButton!
+    @IBOutlet weak var instagramButtonView: InstagramButton!
 }
 
 // MARK: - Life cycle
@@ -19,6 +21,7 @@ extension DemoViewController {
     override func loadView() {
         super.loadView()
         facebookButtonView.delegate = self
+        instagramButtonView.delegate = self
     }
 }
 
@@ -29,7 +32,14 @@ extension DemoViewController {
 
 extension DemoViewController: FacebookButtonDelegate {
     func touchedFacebookButton(_ sender: UIButton) {
-        transitions(from: self, to: facebookProfileController)
+        transitions(from: self, to: facebookProfileViewController)
+        animatorManager.navigationType = .push
+    }
+}
+
+extension DemoViewController: InstagramButtonDelegate {
+    func imstagramButton(_ sender: UIButton) {
+        transitions(from: self, to: instagramProfileViewController)
         animatorManager.navigationType = .push
     }
 }

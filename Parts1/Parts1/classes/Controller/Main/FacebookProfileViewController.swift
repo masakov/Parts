@@ -25,9 +25,9 @@ extension FacebookProfileViewController: WKUIDelegate, WKNavigationDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myURL = URL(string: "https://www.facebook.com/PlaygroundCo2019")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
+        let facebookURL = URL(string: "https://www.facebook.com/PlaygroundCo2019")
+        let facebookRequest = URLRequest(url: facebookURL!)
+        webView.load(facebookRequest)
     }
 }
 

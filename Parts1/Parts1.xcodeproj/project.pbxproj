@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1967A1D2233797900903AC6 /* InstagramButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1967A1C2233797900903AC6 /* InstagramButton.swift */; };
+		D1967A1F223379BE00903AC6 /* InstagramButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1967A1E223379BE00903AC6 /* InstagramButton.xib */; };
+		D1967A21223379F400903AC6 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D1967A20223379F400903AC6 /* instagram.png */; };
+		D1967A2B2233839000903AC6 /* InstagramProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */; };
+		D1967A2F223383B200903AC6 /* InstagramProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */; };
 		D1B11D722230FB8C005C3147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11D712230FB8C005C3147 /* AppDelegate.swift */; };
 		D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D752230FB8C005C3147 /* Main.storyboard */; };
 		D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D782230FB8F005C3147 /* Assets.xcassets */; };
@@ -37,6 +42,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1967A1C2233797900903AC6 /* InstagramButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramButton.swift; sourceTree = "<group>"; };
+		D1967A1E223379BE00903AC6 /* InstagramButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstagramButton.xib; sourceTree = "<group>"; };
+		D1967A20223379F400903AC6 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramProfileViewController.swift; sourceTree = "<group>"; };
+		D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstagramProfileViewController.xib; sourceTree = "<group>"; };
 		D1B11D6E2230FB8C005C3147 /* Parts1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parts1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B11D712230FB8C005C3147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B11D762230FB8C005C3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,6 +144,7 @@
 				D1B11DBB223111C0005C3147 /* Common */,
 				D1B11DE72231125E005C3147 /* CheckBoxButton.swift */,
 				D1B11E5822325997005C3147 /* FacebookButton.swift */,
+				D1967A1C2233797900903AC6 /* InstagramButton.swift */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -151,6 +162,7 @@
 			children = (
 				D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */,
 				D1B11DED22311314005C3147 /* DemoViewController.swift */,
+				D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -205,6 +217,7 @@
 				D1B11DD1223111C0005C3147 /* Common */,
 				D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */,
 				D1B11E5A223259AD005C3147 /* FacebookButton.xib */,
+				D1967A1E223379BE00903AC6 /* InstagramButton.xib */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -222,6 +235,7 @@
 			children = (
 				D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */,
 				D1B11DEF2231132D005C3147 /* DemoViewController.xib */,
+				D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -229,6 +243,7 @@
 		D1B11E5E22326032005C3147 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D1967A20223379F400903AC6 /* instagram.png */,
 				D1B11E5C22325F23005C3147 /* facebookButton.png */,
 			);
 			path = images;
@@ -292,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1967A1F223379BE00903AC6 /* InstagramButton.xib in Resources */,
+				D1967A21223379F400903AC6 /* instagram.png in Resources */,
 				D1B11E5D22325F23005C3147 /* facebookButton.png in Resources */,
 				D1B11E6222326956005C3147 /* FacebookProfileViewController.xib in Resources */,
 				D1B11E5B223259AD005C3147 /* FacebookButton.xib in Resources */,
@@ -299,6 +316,7 @@
 				D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */,
 				D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */,
 				D1B11DE2223111C0005C3147 /* NavigationHeaderView.xib in Resources */,
+				D1967A2F223383B200903AC6 /* InstagramProfileViewController.xib in Resources */,
 				D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */,
 				D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1B11DEE22311314005C3147 /* DemoViewController.swift in Sources */,
+				D1967A2B2233839000903AC6 /* InstagramProfileViewController.swift in Sources */,
 				D1B11D722230FB8C005C3147 /* AppDelegate.swift in Sources */,
 				D1B11DE82231125E005C3147 /* CheckBoxButton.swift in Sources */,
 				D1B11DDF223111C0005C3147 /* BaseNavigationControllerViewController.swift in Sources */,
@@ -324,6 +343,7 @@
 				D1B11E6022326930005C3147 /* FacebookProfileViewController.swift in Sources */,
 				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
 				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
+				D1967A1D2233797900903AC6 /* InstagramButton.swift in Sources */,
 				D1B11E5922325997005C3147 /* FacebookButton.swift in Sources */,
 				D1B11DD6223111C0005C3147 /* AnimatorManager.swift in Sources */,
 				D1B11DE1223111C0005C3147 /* BaseView.swift in Sources */,
