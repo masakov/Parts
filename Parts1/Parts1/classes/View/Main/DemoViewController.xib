@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="facebookButtonView" destination="3uU-Ue-dU0" id="YRQ-Bc-M5B"/>
                 <outlet property="instagramButtonView" destination="31h-YV-n9d" id="wQF-3I-sSd"/>
+                <outlet property="twitterButtonView" destination="lep-9M-veJ" id="EPu-AZ-JyC"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Yca-0Z-cih"/>
             </connections>
         </placeholder>
@@ -38,7 +39,7 @@
                         <constraint firstAttribute="width" constant="100" id="RUA-pm-Qyo"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lep-9M-veJ">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lep-9M-veJ" customClass="TwitterButton" customModule="Parts1" customModuleProvider="target">
                     <rect key="frame" x="30" y="184" width="100" height="100"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>

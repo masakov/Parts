@@ -25,7 +25,7 @@ extension InstagramProfileViewController: WKUIDelegate, WKNavigationDelegate {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let instaURL = URL(string: "https://www.instagram.com/corp.playground/?hl=ja")
+        let instaURL = URL(string: "https://www.instagram.com/corp.playground/")
         let instaRequest = URLRequest(url: instaURL!)
         webView.load(instaRequest)
     }
