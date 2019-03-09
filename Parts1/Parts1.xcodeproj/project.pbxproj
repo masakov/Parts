@@ -12,6 +12,11 @@
 		D1967A21223379F400903AC6 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D1967A20223379F400903AC6 /* instagram.png */; };
 		D1967A2B2233839000903AC6 /* InstagramProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */; };
 		D1967A2F223383B200903AC6 /* InstagramProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */; };
+		D1967A372233895800903AC6 /* TwitterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1967A362233895800903AC6 /* TwitterButton.swift */; };
+		D1967A392233897100903AC6 /* TwitterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1967A382233897100903AC6 /* TwitterButton.xib */; };
+		D1967A3B22338A0800903AC6 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = D1967A3A22338A0800903AC6 /* twitter.png */; };
+		D1967A3D22338B2100903AC6 /* TwitterProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1967A3C22338B2100903AC6 /* TwitterProfileViewController.swift */; };
+		D1967A3F22338D9500903AC6 /* TwitterProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1967A3E22338D9500903AC6 /* TwitterProfileViewController.xib */; };
 		D1B11D722230FB8C005C3147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11D712230FB8C005C3147 /* AppDelegate.swift */; };
 		D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D752230FB8C005C3147 /* Main.storyboard */; };
 		D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B11D782230FB8F005C3147 /* Assets.xcassets */; };
@@ -47,6 +52,11 @@
 		D1967A20223379F400903AC6 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramProfileViewController.swift; sourceTree = "<group>"; };
 		D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstagramProfileViewController.xib; sourceTree = "<group>"; };
+		D1967A362233895800903AC6 /* TwitterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterButton.swift; sourceTree = "<group>"; };
+		D1967A382233897100903AC6 /* TwitterButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterButton.xib; sourceTree = "<group>"; };
+		D1967A3A22338A0800903AC6 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		D1967A3C22338B2100903AC6 /* TwitterProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterProfileViewController.swift; sourceTree = "<group>"; };
+		D1967A3E22338D9500903AC6 /* TwitterProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterProfileViewController.xib; sourceTree = "<group>"; };
 		D1B11D6E2230FB8C005C3147 /* Parts1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parts1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B11D712230FB8C005C3147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B11D762230FB8C005C3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +99,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1967A312233887D00903AC6 /* FacebookButton */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */,
+				D1B11E5A223259AD005C3147 /* FacebookButton.xib */,
+				D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */,
+				D1B11E5822325997005C3147 /* FacebookButton.swift */,
+			);
+			name = FacebookButton;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D1967A32223388AA00903AC6 /* instagramButton */ = {
+			isa = PBXGroup;
+			children = (
+				D1967A1C2233797900903AC6 /* InstagramButton.swift */,
+				D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */,
+				D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */,
+				D1967A1E223379BE00903AC6 /* InstagramButton.xib */,
+			);
+			path = instagramButton;
+			sourceTree = "<group>";
+		};
+		D1967A34223388F200903AC6 /* CheckboxButton */ = {
+			isa = PBXGroup;
+			children = (
+				D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */,
+				D1B11DE72231125E005C3147 /* CheckBoxButton.swift */,
+			);
+			path = CheckboxButton;
+			sourceTree = "<group>";
+		};
+		D1967A352233893400903AC6 /* TwitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				D1967A362233895800903AC6 /* TwitterButton.swift */,
+				D1967A382233897100903AC6 /* TwitterButton.xib */,
+				D1967A3C22338B2100903AC6 /* TwitterProfileViewController.swift */,
+				D1967A3E22338D9500903AC6 /* TwitterProfileViewController.xib */,
+			);
+			path = TwitterButton;
+			sourceTree = "<group>";
+		};
 		D1B11D652230FB8C005C3147 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +175,10 @@
 			isa = PBXGroup;
 			children = (
 				D1B11E5E22326032005C3147 /* images */,
+				D1967A34223388F200903AC6 /* CheckboxButton */,
+				D1967A312233887D00903AC6 /* FacebookButton */,
+				D1967A32223388AA00903AC6 /* instagramButton */,
+				D1967A352233893400903AC6 /* TwitterButton */,
 				D1B11DB9223111C0005C3147 /* Controller */,
 				D1B11DBE223111C0005C3147 /* Common */,
 				D1B11DCE223111C0005C3147 /* View */,
@@ -142,9 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				D1B11DBB223111C0005C3147 /* Common */,
-				D1B11DE72231125E005C3147 /* CheckBoxButton.swift */,
-				D1B11E5822325997005C3147 /* FacebookButton.swift */,
-				D1967A1C2233797900903AC6 /* InstagramButton.swift */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -160,9 +214,7 @@
 		D1B11DBD223111C0005C3147 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */,
 				D1B11DED22311314005C3147 /* DemoViewController.swift */,
-				D1967A2A2233839000903AC6 /* InstagramProfileViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -215,9 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				D1B11DD1223111C0005C3147 /* Common */,
-				D1B11DEB223112B0005C3147 /* CheckBoxButton.xib */,
-				D1B11E5A223259AD005C3147 /* FacebookButton.xib */,
-				D1967A1E223379BE00903AC6 /* InstagramButton.xib */,
 			);
 			path = Sub;
 			sourceTree = "<group>";
@@ -233,9 +282,7 @@
 		D1B11DD3223111C0005C3147 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */,
 				D1B11DEF2231132D005C3147 /* DemoViewController.xib */,
-				D1967A2E223383B200903AC6 /* InstagramProfileViewController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -243,6 +290,7 @@
 		D1B11E5E22326032005C3147 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D1967A3A22338A0800903AC6 /* twitter.png */,
 				D1967A20223379F400903AC6 /* instagram.png */,
 				D1B11E5C22325F23005C3147 /* facebookButton.png */,
 			);
@@ -309,10 +357,13 @@
 			files = (
 				D1967A1F223379BE00903AC6 /* InstagramButton.xib in Resources */,
 				D1967A21223379F400903AC6 /* instagram.png in Resources */,
+				D1967A392233897100903AC6 /* TwitterButton.xib in Resources */,
+				D1967A3F22338D9500903AC6 /* TwitterProfileViewController.xib in Resources */,
 				D1B11E5D22325F23005C3147 /* facebookButton.png in Resources */,
 				D1B11E6222326956005C3147 /* FacebookProfileViewController.xib in Resources */,
 				D1B11E5B223259AD005C3147 /* FacebookButton.xib in Resources */,
 				D1B11D7C2230FB8F005C3147 /* LaunchScreen.storyboard in Resources */,
+				D1967A3B22338A0800903AC6 /* twitter.png in Resources */,
 				D1B11DF02231132D005C3147 /* DemoViewController.xib in Resources */,
 				D1B11DEC223112B0005C3147 /* CheckBoxButton.xib in Resources */,
 				D1B11DE2223111C0005C3147 /* NavigationHeaderView.xib in Resources */,
@@ -335,6 +386,7 @@
 				D1B11DE82231125E005C3147 /* CheckBoxButton.swift in Sources */,
 				D1B11DDF223111C0005C3147 /* BaseNavigationControllerViewController.swift in Sources */,
 				D1B11DDD223111C0005C3147 /* BaseViewController.swift in Sources */,
+				D1967A3D22338B2100903AC6 /* TwitterProfileViewController.swift in Sources */,
 				D1B11DDB223111C0005C3147 /* BaseTabBarController.swift in Sources */,
 				D1B11DDE223111C0005C3147 /* BaseTableViewCell.swift in Sources */,
 				D1B11DD8223111C0005C3147 /* Extensions.swift in Sources */,
@@ -344,6 +396,7 @@
 				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
 				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
 				D1967A1D2233797900903AC6 /* InstagramButton.swift in Sources */,
+				D1967A372233895800903AC6 /* TwitterButton.swift in Sources */,
 				D1B11E5922325997005C3147 /* FacebookButton.swift in Sources */,
 				D1B11DD6223111C0005C3147 /* AnimatorManager.swift in Sources */,
 				D1B11DE1223111C0005C3147 /* BaseView.swift in Sources */,
