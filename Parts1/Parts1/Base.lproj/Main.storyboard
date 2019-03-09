@@ -19,14 +19,6 @@
             </objects>
             <point key="canvasLocation" x="1112.8" y="28.335832083958024"/>
         </scene>
-        <!--Facebook Profile View Controller-->
-        <scene sceneID="7m8-M2-fge">
-            <objects>
-                <viewController id="R4P-ve-YuR" customClass="FacebookProfileViewController" customModule="Parts1" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OJJ-4O-0vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1906.4000000000001" y="29.23538230884558"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="qDJ-t5-9ZA">
             <objects>
