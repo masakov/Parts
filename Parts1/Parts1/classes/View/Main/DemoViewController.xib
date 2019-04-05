@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="facebookButtonView" destination="3uU-Ue-dU0" id="YRQ-Bc-M5B"/>
                 <outlet property="instagramButtonView" destination="31h-YV-n9d" id="wQF-3I-sSd"/>
+                <outlet property="textLinkView" destination="U9a-t3-lf6" id="Kgk-jV-NXC"/>
                 <outlet property="twitterButtonView" destination="lep-9M-veJ" id="EPu-AZ-JyC"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Yca-0Z-cih"/>
             </connections>
@@ -71,6 +72,14 @@
                         <constraint firstAttribute="width" secondItem="CZM-aa-5CQ" secondAttribute="height" multiplier="1:1" id="pz2-6M-8oP"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9a-t3-lf6" customClass="TextLinkView" customModule="Parts1" customModuleProvider="target">
+                    <rect key="frame" x="30" y="308" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="VVn-AA-u7D"/>
+                        <constraint firstAttribute="width" secondItem="U9a-t3-lf6" secondAttribute="height" multiplier="1:1" id="fED-dD-sa0"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
@@ -85,10 +94,12 @@
                 <constraint firstItem="lep-9M-veJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="Qe6-H0-vwP"/>
                 <constraint firstItem="31h-YV-n9d" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="TRA-m6-pqW"/>
                 <constraint firstItem="lep-9M-veJ" firstAttribute="width" secondItem="lep-9M-veJ" secondAttribute="height" multiplier="1:1" id="XoQ-fh-d0g"/>
+                <constraint firstItem="U9a-t3-lf6" firstAttribute="top" secondItem="lep-9M-veJ" secondAttribute="bottom" constant="24" id="Yhy-uS-kAD"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="31h-YV-n9d" secondAttribute="trailing" constant="30" id="ZtW-D9-llN"/>
                 <constraint firstItem="XHN-nc-ZD9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bUf-H8-SWL"/>
                 <constraint firstItem="3uU-Ue-dU0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cR9-e0-hOW"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CZM-aa-5CQ" secondAttribute="trailing" constant="30" id="d6K-Sn-GmW"/>
+                <constraint firstItem="U9a-t3-lf6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="jdP-fW-ecx"/>
                 <constraint firstItem="ZJf-Dq-T1l" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="n3m-1v-33U"/>
                 <constraint firstItem="XHN-nc-ZD9" firstAttribute="width" secondItem="XHN-nc-ZD9" secondAttribute="height" multiplier="1:1" id="p71-Gy-SUJ"/>
             </constraints>

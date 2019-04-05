@@ -16,6 +16,7 @@ class DemoViewController: BaseViewController{
     @IBOutlet weak var facebookButtonView: FacebookButton!
     @IBOutlet weak var instagramButtonView: InstagramButton!
     @IBOutlet weak var twitterButtonView: TwitterButton!
+    @IBOutlet weak var textLinkView: TextLinkView!
 }
 
 // MARK: - Life cycle
@@ -25,6 +26,8 @@ extension DemoViewController {
         facebookButtonView.delegate = self
         instagramButtonView.delegate = self
         twitterButtonView.delegate = self
+        textLinkView.delegate = self
+        self.textLinkView.updateLinkText(text: "お問い合わせはコチラ", linkText: "コチラ", str_url: "https://support.apple.com/ja-jp/contact")
     }
 }
 
@@ -52,6 +55,10 @@ extension DemoViewController: TwitterButtonDelegate {
         transitions(from: self, to: twitterProfileViewController)
         animatorManager.navigationType = .push
     }
+}
+
+extension DemoViewController: TextLinkViewDelegate {
+    
 }
 
 // MARK: - method
