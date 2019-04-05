@@ -7,15 +7,17 @@
 //
 
 import UIKit
+import MessageUI
 
 // MARK: - Property
-class DemoViewController: BaseViewController{
+class DemoViewController: BaseViewController, MFMailComposeViewControllerDelegate{
     let facebookProfileViewController = FacebookProfileViewController()
     let instagramProfileViewController = InstagramProfileViewController()
     let twitterProfileViewController = TwitterProfileViewController()
     @IBOutlet weak var facebookButtonView: FacebookButton!
     @IBOutlet weak var instagramButtonView: InstagramButton!
-    @IBOutlet weak var twitterButtonView: TwitterButton!
+    @IBOutlet weak var twitterButtonView: TwitterButton!    
+    @IBOutlet weak var launchMailerMainView: LaunchMailerMainView!
 }
 
 // MARK: - Life cycle
@@ -25,6 +27,7 @@ extension DemoViewController {
         facebookButtonView.delegate = self
         instagramButtonView.delegate = self
         twitterButtonView.delegate = self
+        launchMailerMainView.delegate = self
     }
 }
 
@@ -54,7 +57,42 @@ extension DemoViewController: TwitterButtonDelegate {
     }
 }
 
+extension DemoViewController: LaunchMailerMainViewDelegate {
+    func touchedLaunchMailer(_ sender: UIButton) {
+        launchMailer(To: "test@playground.com", Subject: "hogehogePlayground")
+    }
+}
+
 // MARK: - method
 extension DemoViewController {
+    func launchMailer(To: String, Subject: String){
+        let mailViewController = MFMailComposeViewController()
+//        let CcRecipients = ["Cchoge@playground.com","Cchoge2@playground.com"]
+//        let BccRecipients = ["Bcchoge@playground.com","Bcchoge2@playground.com"]
+        mailViewController.mailComposeDelegate = self
+        mailViewController.setToRecipients([To]) //Toアドレスの表示
+        mailViewController.setSubject(Subject)
+//        mailViewController.setCcRecipients(CcRecipients) //Ccアドレスの表示
+//        mailViewController.setBccRecipients(BccRecipients) //Bccアドレスの表示
+//        mailViewController.setMessageBody("hogehoge playground", isHTML: false)
+        
+        present(mailViewController, animated: true, completion: nil)
+    }
     
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        
+        switch result {
+        case .cancelled:
+            print("キャンセルしました")
+        case .saved:
+            print("セーブしました")
+        case .sent:
+            print("送信しました")
+        case .failed:
+            print("失敗しました。")
+        default:
+            print("エラー")
+        }
+        self.dismiss(animated: true, completion: nil)
+    }
 }
