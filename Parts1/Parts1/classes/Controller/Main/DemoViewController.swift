@@ -16,8 +16,9 @@ class DemoViewController: BaseViewController, MFMailComposeViewControllerDelegat
     let twitterProfileViewController = TwitterProfileViewController()
     @IBOutlet weak var facebookButtonView: FacebookButton!
     @IBOutlet weak var instagramButtonView: InstagramButton!
-    @IBOutlet weak var twitterButtonView: TwitterButton!    
     @IBOutlet weak var launchMailerMainView: LaunchMailerMainView!
+    @IBOutlet weak var twitterButtonView: TwitterButton!
+    @IBOutlet weak var textLinkView: TextLinkView!
 }
 
 // MARK: - Life cycle
@@ -28,6 +29,8 @@ extension DemoViewController {
         instagramButtonView.delegate = self
         twitterButtonView.delegate = self
         launchMailerMainView.delegate = self
+        textLinkView.delegate = self
+        self.textLinkView.updateLinkText(text: "お問い合わせはコチラ", linkText: "コチラ", str_url: "https://support.apple.com/ja-jp/contact")
     }
 }
 
@@ -61,6 +64,7 @@ extension DemoViewController: LaunchMailerMainViewDelegate {
     func touchedLaunchMailer(_ sender: UIButton) {
         launchMailer(To: "test@playground.com", Subject: "hogehogePlayground")
     }
+extension DemoViewController: TextLinkViewDelegate {
 }
 
 // MARK: - method
