@@ -44,6 +44,8 @@
 		D1B11E5D22325F23005C3147 /* facebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E5C22325F23005C3147 /* facebookButton.png */; };
 		D1B11E6022326930005C3147 /* FacebookProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */; };
 		D1B11E6222326956005C3147 /* FacebookProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */; };
+		E90B6919226DC5750058B150 /* TextLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B6918226DC5750058B150 /* TextLinkView.swift */; };
+		E90B691B226DC57B0058B150 /* TextLinkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90B691A226DC57B0058B150 /* TextLinkView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		D1B11E5C22325F23005C3147 /* facebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookButton.png; sourceTree = "<group>"; };
 		D1B11E5F22326930005C3147 /* FacebookProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProfileViewController.swift; sourceTree = "<group>"; };
 		D1B11E6122326956005C3147 /* FacebookProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookProfileViewController.xib; sourceTree = "<group>"; };
+		E90B6918226DC5750058B150 /* TextLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextLinkView.swift; path = classes/TextLinkView/TextLinkView.swift; sourceTree = "<group>"; };
+		E90B691A226DC57B0058B150 /* TextLinkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TextLinkView.xib; path = classes/TextLinkView/TextLinkView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 				D1B11DB8223111C0005C3147 /* classes */,
 				D1B11D712230FB8C005C3147 /* AppDelegate.swift */,
 				D1B11D752230FB8C005C3147 /* Main.storyboard */,
+				E90B6918226DC5750058B150 /* TextLinkView.swift */,
+				E90B691A226DC57B0058B150 /* TextLinkView.xib */,
 				D1B11D782230FB8F005C3147 /* Assets.xcassets */,
 				D1B11D7A2230FB8F005C3147 /* LaunchScreen.storyboard */,
 				D1B11D7D2230FB8F005C3147 /* Info.plist */,
@@ -370,6 +376,7 @@
 				D1967A2F223383B200903AC6 /* InstagramProfileViewController.xib in Resources */,
 				D1B11D792230FB8F005C3147 /* Assets.xcassets in Resources */,
 				D1B11D772230FB8C005C3147 /* Main.storyboard in Resources */,
+				E90B691B226DC57B0058B150 /* TextLinkView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +400,7 @@
 				D1B11DD4223111C0005C3147 /* NavigationHeaderView.swift in Sources */,
 				D1B11DE0223111C0005C3147 /* BaseTableView.swift in Sources */,
 				D1B11E6022326930005C3147 /* FacebookProfileViewController.swift in Sources */,
+				E90B6919226DC5750058B150 /* TextLinkView.swift in Sources */,
 				D1B11DD7223111C0005C3147 /* UserDataManager.swift in Sources */,
 				D1B11DDA223111C0005C3147 /* Const.swift in Sources */,
 				D1967A1D2233797900903AC6 /* InstagramButton.swift in Sources */,
