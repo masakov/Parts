@@ -64,6 +64,8 @@ extension DemoViewController: LaunchMailerMainViewDelegate {
     func touchedLaunchMailer(_ sender: UIButton) {
         launchMailer(To: "test@playground.com", Subject: "hogehogePlayground")
     }
+}
+
 extension DemoViewController: TextLinkViewDelegate {
 }
 
