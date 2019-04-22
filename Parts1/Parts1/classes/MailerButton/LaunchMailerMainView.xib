@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaunchMailerMainView" customModule="Parts1" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cam-o5-JNx">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <state key="normal" title="Button" image="mailer"/>
+                    <connections>
+                        <action selector="touchedLaunchMailer:" destination="-1" eventType="touchUpInside" id="JQP-lY-SLj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Cam-o5-JNx" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="OHr-rb-Bhq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Cam-o5-JNx" secondAttribute="bottom" id="dVc-yU-vIM"/>
+                <constraint firstItem="Cam-o5-JNx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hdc-Yx-Op8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Cam-o5-JNx" secondAttribute="trailing" id="xg4-Zq-R0M"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mailer" width="256" height="256"/>
+    </resources>
+</document>
